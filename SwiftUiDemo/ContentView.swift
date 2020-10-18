@@ -20,10 +20,17 @@ struct ContentView: View {
             
             Text("Order Pizza")
                 .font(.largeTitle)
-            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) {  item in
+            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) {  item in //gowaha 2 vertical wa7d mnhm horizontal w el for each 3shan t7ot 3dd el sowr ely 3yzha
                 HStack(alignment: .top , spacing: 15) {
                     Image("1_100w")
-                    Text("Hulli Chicken Pizza")
+                    VStack {
+                        Text("Hulli Chicken Pizza")
+                        HStack {
+                            ForEach(0..<4){item in
+                                Image("Pizza Slice")
+                            }
+                        }
+                    }
                     Spacer()
                 }
             }
@@ -42,7 +49,9 @@ struct ContentView: View {
 }
 
 
-//note cmd on hstack we can embet in a list as hstack represent the row of the list
+//note
+//1 cmd on hstack we can embet in a list as hstack represent the row of the list
+//2 also we can embed any item like text to a stack via cmd
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
