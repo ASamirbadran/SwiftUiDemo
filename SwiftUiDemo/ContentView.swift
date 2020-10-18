@@ -20,22 +20,29 @@ struct ContentView: View {
             
             Text("Order Pizza")
                 .font(.largeTitle)
-            Spacer() // push everything up in the stack
-            HStack(alignment: .top, spacing: 15) { // horizontal stack
-                Image("1_100w")
-                Text("Hulli Chicken Pizza")
-                Spacer()
+            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) {  item in
+                HStack(alignment: .top , spacing: 15) {
+                    Image("1_100w")
+                    Text("Hulli Chicken Pizza")
+                    Spacer()
+                }
             }
             Text("Your Order")
-            HStack(alignment: .firstTextBaseline) { // annother horizontal stack
-                Text("Your Order Item Here")
-                Spacer()
-                Text("$0.00")
+            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) {  item in
+                HStack(alignment: .firstTextBaseline) {
+                    Text("Your Order Item Here")
+                    Spacer()// push everything up in the stack
+                    Text("$0.00")
+                }
             }
+            Spacer()
         }
         .padding()
     }
 }
+
+
+//note cmd on hstack we can embet in a list as hstack represent the row of the list
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
