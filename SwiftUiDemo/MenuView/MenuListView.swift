@@ -10,7 +10,7 @@ import SwiftUI
 struct MenuListView: View {
     var body: some View {
         VStack {
-            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) {  item in
+            List(0 ..< 5) {  item in
                 MenuRowView()
             }
         }

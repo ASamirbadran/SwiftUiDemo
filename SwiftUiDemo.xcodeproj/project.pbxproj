@@ -17,6 +17,9 @@
 		116604D7253EFCD1004BD80C /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116604D6253EFCD1004BD80C /* MenuRowView.swift */; };
 		116604DA253EFD37004BD80C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116604D9253EFD37004BD80C /* RatingView.swift */; };
 		116604DE253EFE78004BD80C /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116604DD253EFE78004BD80C /* PageTitleView.swift */; };
+		116604E2253F00C0004BD80C /* PizzaHistoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116604E1253F00C0004BD80C /* PizzaHistoryContentView.swift */; };
+		116604E5253F0146004BD80C /* PizzaHistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116604E4253F0146004BD80C /* PizzaHistoryListView.swift */; };
+		116604E8253F022D004BD80C /* PizzaHistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116604E7253F022D004BD80C /* PizzaHistoryRow.swift */; };
 		11896F53253C3E3500400A56 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11896F52253C3E3500400A56 /* OrderListView.swift */; };
 		119799F3253C793A001DEA53 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119799F2253C793A001DEA53 /* MenuListView.swift */; };
 		119799F6253C79BA001DEA53 /* ContentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119799F5253C79BA001DEA53 /* ContentHeaderView.swift */; };
@@ -35,6 +38,9 @@
 		116604D6253EFCD1004BD80C /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
 		116604D9253EFD37004BD80C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		116604DD253EFE78004BD80C /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		116604E1253F00C0004BD80C /* PizzaHistoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaHistoryContentView.swift; sourceTree = "<group>"; };
+		116604E4253F0146004BD80C /* PizzaHistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaHistoryListView.swift; sourceTree = "<group>"; };
+		116604E7253F022D004BD80C /* PizzaHistoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaHistoryRow.swift; sourceTree = "<group>"; };
 		11896F52253C3E3500400A56 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		119799F2253C793A001DEA53 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
 		119799F5253C79BA001DEA53 /* ContentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderView.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 		11896F49253C3DC900400A56 /* HistoryView */ = {
 			isa = PBXGroup;
 			children = (
+				116604E1253F00C0004BD80C /* PizzaHistoryContentView.swift */,
+				116604E4253F0146004BD80C /* PizzaHistoryListView.swift */,
+				116604E7253F022D004BD80C /* PizzaHistoryRow.swift */,
 			);
 			path = HistoryView;
 			sourceTree = "<group>";
@@ -199,12 +208,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1156DF332534A1770007CD9E /* AppDelegate.swift in Sources */,
+				116604E2253F00C0004BD80C /* PizzaHistoryContentView.swift in Sources */,
 				119799F3253C793A001DEA53 /* MenuListView.swift in Sources */,
 				116604DE253EFE78004BD80C /* PageTitleView.swift in Sources */,
 				11896F53253C3E3500400A56 /* OrderListView.swift in Sources */,
+				116604E8253F022D004BD80C /* PizzaHistoryRow.swift in Sources */,
 				116604DA253EFD37004BD80C /* RatingView.swift in Sources */,
 				119799F6253C79BA001DEA53 /* ContentHeaderView.swift in Sources */,
 				116604D7253EFCD1004BD80C /* MenuRowView.swift in Sources */,
+				116604E5253F0146004BD80C /* PizzaHistoryListView.swift in Sources */,
 				1156DF352534A1770007CD9E /* SceneDelegate.swift in Sources */,
 				116604D4253EFC0F004BD80C /* OrderRowView.swift in Sources */,
 				1156DF372534A1770007CD9E /* ContentView.swift in Sources */,
