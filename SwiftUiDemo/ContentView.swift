@@ -20,9 +20,7 @@ struct ContentView: View {
 }
 
 
-//note
-//1 cmd on hstack we can embet in a list as hstack represent the row of the list
-//2 also we can embed any item like text to a stack via cmd
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -35,3 +33,13 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+
+
+
+
+
+
+
+//note
+//1 cmd on hstack we can embet in a list as hstack represent the row of the list
+//2 also we can embed any item like text to a stack via cmd
