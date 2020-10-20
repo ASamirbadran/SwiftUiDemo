@@ -16,8 +16,7 @@ struct ContentHeaderView: View {
                     .scaledToFit()
                 Text("Huli Pizza Company")
                     .font(.title) // title font size
-            }
-            
+            }            
         }
     }
 }
@@ -27,3 +26,4 @@ struct ContentHeaderView_Previews: PreviewProvider {
         ContentHeaderView()
     }
 }
+

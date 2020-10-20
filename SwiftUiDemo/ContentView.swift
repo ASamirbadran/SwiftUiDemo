@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack { // CONTAINER VIEW vertical stack
             ContentHeaderView()
+            PageTitleView(title: "Order Pizza") //a subview with parameter(reusable component)
             MenuListView()
             OrderListView() //3shan n arrange el code 
             Spacer()
